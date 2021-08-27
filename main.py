@@ -4,4 +4,4 @@ from pydantic import BaseModel
 app = FastAPI()
 @app.get("/")
 def raiz():
-    return {"rock in roll"}
+    return {"teste de atualizacao"}
